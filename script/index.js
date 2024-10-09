@@ -1,24 +1,22 @@
-const url = "https://forge.withub.ai/api/triggers/5257a02d-c19b-4969-ab81-2206de86082c/execute/66f815983976c19201c855b4";
+const nome = document.getElementById('nome');
+const email = document.getElementById('email');
+const telefone = document.getElementById('telefone');
+const cpf = document.getElementById('cpf');
+const valor_doado = document.getElementById('valor_doado');
 
-const options = {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({}) // Corpo vazio, conforme o comando curl
+document.addEventListener('DOMContentLoaded', function(){
+console.log(nome);
+
+
+form.addEventListener('submit', function(event) {
+event.preventDefault(); // Impede a atualização da página
+
+// Captura os valores dos campos de entrada
+const dadosFormulario = {
+nome: nome.value,
 };
 
-fetch(url, options)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.json(); // Se espera uma resposta JSON
-    })
-    .then(data => {
-        console.log('Success:', data); // Processar os dados retornados
-    })
-    .catch(error => {
-        console.error('Error:', error); // Captura de erros
-        
-    });
+// Exibe os dados capturados no console
+console.log('Dados do Formulário:', dadosFormulario);
+});
+});
