@@ -108,6 +108,7 @@ body {
     transform: translate(-50%,-50%);
     width: 80%;
     height: 100%;
+    padding: none;
 }
  
 .dialogsair_css{
@@ -115,7 +116,13 @@ body {
     background-color: red;
     padding: 0.8%;
 }
-
-.index_body{
-    
+.mensagem_input{
+    text-align: start;
+    padding: 25%;
+    width: 100%;
 }
+
+
+
+ 
+    

@@ -33,6 +33,10 @@ legend{
  .inputBox{
 position: relative;
  }
+
+ .carousel-inner{
+
+ }
 .inputUser{
     background: none;
     border: none;

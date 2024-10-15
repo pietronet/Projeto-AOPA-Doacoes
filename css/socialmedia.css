@@ -1,3 +1,4 @@
+
 .redesociaisAOPA{
     gap: 60px;
     width: 100%;
@@ -27,4 +28,174 @@
 .facebook :hover{
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+iframe{
+    justify-content:center;
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+    left: 30%;
+}
+
+.acoessociaisaopa_iframe{
+    width: 800px;
+    height: 800px;
+    margin-top: 2%
+}
+
+.card1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card1 { 
+    background-color: #fff;
+    width: 390px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+}
+
+.card1 h1 {
+    font-size: 1.2rem;
+}
+
+.card1 h2 {
+    font-size: .9rem;
+    color: #aaaa;
+}
+.card1 button {
+    background-color: #2192ff;
+    height:  30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.card2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card2 { 
+    background-color: #fff;
+    width: 390px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+}
+
+.card2 h1 {
+    font-size: 1.2rem;
+}
+
+.card2 h2 {
+    font-size: .9rem;
+    color: #aaaa;
+}
+.card2 button {
+    background-color: #2192ff;
+    height:  30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.card3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card3 { 
+    background-color: #fff;
+    width: 390px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+}
+
+.card3 h1 {
+    font-size: 1.2rem;
+}
+
+.card3 h2 {
+    font-size: .9rem;
+    color: #aaaa;
+}
+.card3 button {
+    background-color: #2192ff;
+    height:  30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.gjhghj{
+    display:flex ;
+    gap: 120px;
+    justify-content: center;
+    margin: 4%;
+}
+
+.social-text-do{
+    position: relative;
+    top: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+.social-text-do b{
+    color: rgb(102, 210, 30);
+}
+
+.finalindex1{
+    display: flex;
+    justify-content: center;
+    background-color: #3b4c3d;;
+    position: relative;
+    top: 100%;
+
+}
+
+.imagens-acoes-doe{
+    position: relative;
+    top: 90px;;
+    justify-content: center;
+display: flex;
+}
+
+.index_div_rodapecontatos a{
+    display: flex;
+    color: white;
+}
+.index_div_rodapecontatos p{
+    display: flex;
+    color: white;
+    position: relative;
+    top: 100px;
+   
 }

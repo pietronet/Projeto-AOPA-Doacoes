@@ -17,85 +17,119 @@
     </head>
 
     <body>
-        <div class="index_body">
-            <div class="container">
-                <!-- Cabeçalho/Menu -->
-                <header>
-                    <nav class="navbar-index">
-                        <!-- Link para a página inicial -->
-                        <a href="index.html">
-                            <div class="logoAOPA2">
-                                <img src="assets/logoaopa.png" width="250px" />
-                            </div>
-                        </a>
-                        <!-- ========================== -->
-                        <!-- Link para outras páginas -->
-                        <li><button class="btn btn-success" id="teste">Quero Doar</button></li>
-                        <li><a href="acoessociaisaopa.html">Ações Sociais</a></li>
-                        <li><a href="contatoaopa.html">Contato</a></li>
-                        <!-- ======================== -->
-                    </nav>
-                </header>
+        <div class="acoessociaisaopa_body">
+            <!-- Cabeçalho/Menu -->
+            <header>
+              <nav class="navbar-index">
+                <!-- Link para a página inicial -->
+                <a href="index.html">
+                  <div class="logoAOPA2">
+                    <img src="assets/logoaopa.png" width="250px" />
+                  </div>
+                </a>
+                <!-- ========================== -->
+                <!-- Link para outras páginas -->
+                <li><button class="btn btn-success" id="teste">Quero Doar</button></li>
+                <li><a href="acoessociaisaopa.html">Ações Sociais</a></li>
+                <li><a href="contatoaopa.html">Contato</a></li>
+                <!-- ======================== -->
+              </nav>
                 <!-- ================== -->
                 <!-- pop up com dialog -->
-                <dialog class="dialog_css">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem molestias molestiae ea nemo
-                        illo
-                        deleniti
-                        necessitatibus et ab veritatis ipsam nulla vitae, illum debitis, maxime aspernatur tempore rerum
-                        voluptas?</p>
-                    <button id="teste2">Sair</button>
-                </dialog>
-                <!-- ================ -->
-                <!-- Fomulario -->
-                <div class="box">
-                    <form action="">
-                        <fieldset>
-                            <legend style="color: white;"><b>Entre em Contato</b></legend>
-                            <br>
-                            <div class="inputBox">
-                                <input type="text" name="nome" id="nome" class="inputUser" required>
-                                <label for="nome" class="label_input">Nome completo</label>
-                            </div>
-                            <br><br>
-                            <div class="inputBox">
-                                <input type="text" name="email" id="email" class="inputUser" required>
-                                <label for="email" class="label_input">Email</label>
-                            </div>
-                            <br><br>
-                            <div class="inputBox">
-                                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                                <label for="telefone" class="label_input">Telefone</label>
-                            </div>
-                            <br>
-                            <p>Sexo:</p>
-                            <label>
-                                <input type="radio" name="genero" value="feminino">
-                                Feminino
-                            </label>
-                            <br><br>
-                            <label>
-                                <input type="radio" name="genero" value="masculino">
-                                Masculino
-                            </label>
-                            <br><br>
-                            <label>
-                                <input type="radio" name="genero" value="outro">
-                                Outro
-                            </label>
-                            <br><br>
-                            <label for="data_nacimento"><b>Data de Nascimento</b></label>
-                            <input type="date" name="data_nacimento" id="data_nacimento" required style="color: black;">
-                            <br><br>
-                            <div>
-                                <input type="submit" name="submit" id="submit">
+                <div class="container">
+                    <!-- pop up com dialog -->
+                    <dialog class="dialog_css">
+                        <!-- Fomulario -->
+                        <div class="box">
+                            <form id="box" action="https://formsubmit.co/pietroaugustodafonsecajobs@gmail.com" method="POST">
+                                <fieldset>
+                                    <legend style="color: white;"><b>Seja um voluntario</b></legend>
+                                    <br>
+                                    <div class="inputBox">
+                                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                                        <label for="nome" class="label_input">Nome completo</label>
+                                    </div>
+                                    <br><br>
+                                    <div class="inputBox">
+                                        <input type="text" name="email" id="email" class="inputUser" required>
+                                        <label for="email" class="label_input">Email</label>
+                                    </div>
+                                    <br><br>
+                                    <div class="inputBox">
+                                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                                        <label for="telefone" class="label_input">Telefone</label>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div class="inputBox">
+                                        <input type="number" name="CPF" id="cpf" class="inputUser" required>
+                                        <label for="CPF " class="label_input">CPF</label>
+                                    </div><br>
+                                    <div class="inputBox">
+                                        <input type="number" name="valor_doado" id="valor_doado" class="inputUser"
+                                            required>
+                                        <label for="valor_doado" class="label_input">Doar</label>
+                                    </div><br>
+                                    <div>
+                                        <input type="submit" name="submit" id="submit">
+                                    </div>
+                        </div>
                         </fieldset>
-                    </form>
-                    <!-- Fim -->
+                        </form>
+                        <!-- Fim -->
+                        <button id="teste2" class="dialogsair_css"> X </button>
+                    </dialog>
+                    <!-- ================ -->
+                    <!-- Fomulario -->
+                    <div class="box">
+                        <form id="box" action="https://formsubmit.co/pietroaugustodafonsecajobs@gmail.com" method="POST">
+                            <fieldset>
+                                <legend style="color: white;"><b>Entre em Contato</b></legend>
+                                <br>
+                                <div class="inputBox">
+                                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                                    <label for="nome" class="label_input">Nome completo</label>
+                                </div>
+                                <br><br>
+                                <div class="inputBox">
+                                    <input type="text" name="email" id="email" class="inputUser" required>
+                                    <label for="email" class="label_input">Email</label>
+                                </div>
+                                <br><br>
+                                <div class="inputBox">
+                                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                                    <label for="telefone" class="label_input">Telefone</label>
+                                </div>
+                                <br>
+                                <p>Sexo:</p>
+                                <label>
+                                    <input type="radio" name="genero" value="feminino">
+                                    Feminino
+                                </label>
+                                <br><br>
+                                <label>
+                                    <input type="radio" name="genero" value="masculino">
+                                    Masculino
+                                </label>
+                                <br><br>
+                                <label>
+                                    <input type="radio" name="genero" value="outro">
+                                    Outro
+                                </label>
+                                <br><br>
+                                <label for="for_mensagem">Mensagem</label>
+                                <input type="text" name="mensagem" id="mensagem" required
+                                    placeholder="Digite sua mensagem" class="mensagem_input">
+                                <br><br>
+                                <div>
+                                    <input type="submit" name="submit" id="submit">
+                            </fieldset>
+                        </form>
+                        <!-- Fim -->
+                    </div>
+                    <!-- fim -->
                 </div>
-                <!-- fim -->
             </div>
-        </div>
     </body>
 
 </html>
