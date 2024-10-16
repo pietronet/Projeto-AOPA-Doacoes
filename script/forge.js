@@ -17,6 +17,7 @@ fetch(url, options)
     })
     .then(data => {
         console.log('Success:', data); // Processar os dados retornados
+        document.getElementById('text-social-forg').innerText = data.data.valorDoado1;
     })
     .catch(error => {
         console.error('Error:', error); // Captura de erros

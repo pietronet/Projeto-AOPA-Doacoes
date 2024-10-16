@@ -56,29 +56,35 @@ iframe{
 .card1 { 
     background-color: #fff;
     width: 390px;
-    height: 260px;
+    height: auto;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaa;
 }
 
 .card1 h1 {
-    font-size: 1.2rem;
+    font-size: 3rem;
 }
 
 .card1 h2 {
     font-size: .9rem;
     color: #aaaa;
+    position: relative;
+    top: -5% ;
 }
 .card1 button {
+    position: relative;
+    left: 10%;
+    top: -5%;
     background-color: #2192ff;
     height:  30px;
     border: none;
     padding: 4px;
     width: 80%;
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     border-radius: 12px;
+   
 }
 
 .card2 div {
@@ -92,13 +98,13 @@ iframe{
 .card2 { 
     background-color: #fff;
     width: 390px;
-    height: 260px;
+    height: auto;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaa;
 }
 
 .card2 h1 {
-    font-size: 1.2rem;
+    font-size: 3rem;
 }
 
 .card2 h2 {
@@ -106,13 +112,15 @@ iframe{
     color: #aaaa;
 }
 .card2 button {
+    position: relative;
+    left: 10%;
     background-color: #2192ff;
     height:  30px;
     border: none;
     padding: 4px;
     width: 80%;
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     border-radius: 12px;
 }
@@ -129,13 +137,15 @@ iframe{
 .card3 { 
     background-color: #fff;
     width: 390px;
-    height: 260px;
+    height: auto;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaa;
 }
 
 .card3 h1 {
-    font-size: 1.2rem;
+    font-size: 3rem;
+    justify-content: center;
+    display: flex;
 }
 
 .card3 h2 {
@@ -143,23 +153,27 @@ iframe{
     color: #aaaa;
 }
 .card3 button {
+    position: relative;
+    left: 10%;
     background-color: #2192ff;
     height:  30px;
     border: none;
     padding: 4px;
     width: 80%;
     color: rgb(255, 255, 255);
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     border-radius: 12px;
+    
 }
 
-.gjhghj{
+.card123{
     display:flex ;
     gap: 120px;
     justify-content: center;
     margin: 4%;
 }
+
 
 .social-text-do{
     position: relative;
@@ -198,4 +212,15 @@ display: flex;
     position: relative;
     top: 100px;
    
+}
+
+
+
+#text-social-forg {
+    color: rgb(51, 210, 30);
+    width: auto;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    font-size: 24px;
+    justify-content: center;
+    
 }
